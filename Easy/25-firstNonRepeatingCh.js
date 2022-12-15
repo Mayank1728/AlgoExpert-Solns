@@ -1,3 +1,6 @@
+// return the index of first non-repeating character from the string
+// if all are repeating return -1;
+
 /* 
    Test cases: 
     1. "", -1
