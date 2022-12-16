@@ -11,7 +11,6 @@
 
 function generateDocument(characters, document) {
   let map = {};
-  // Write your code here.
   for (let i = 0; i < characters.length; i++) {
     if (!map[characters[i]]) map[characters[i]] = 1;
     else map[characters[i]] += 1;
