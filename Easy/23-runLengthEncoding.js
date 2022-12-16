@@ -1,4 +1,14 @@
 /* 
+    runlengthencoding is string compression technique
+    where you compress consequitive occuring character
+    ex- "AAAAA" , "5A"
+    But if there are 15 consequtive A
+    we cannot write it as "15A" as it will cause
+    confusion whether A occurs 15 times or 1 then 5 times A
+    so 15 consequtive A is written as "9A6A"
+*/
+
+/* 
    Test Cases:
     1. "A", "1A"
     2. "AAB", "2A1B"
